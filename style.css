@@ -1,0 +1,1228 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.header{
+    width: 100%;
+    height: 800px;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    /* background: linear-gradient(to bottom, 
+                              #181818 25%, 
+                              #181818 25%, 
+                              #252525 50%,
+                              #131313 75%, 
+                              #0e0d0d 85% ); */
+                              background: linear-gradient(to bottom, 
+                              #181818 25%, 
+                              #181818 25%, 
+                              #252525 50%,
+                              #131313 75%, 
+                              #000000 85% );
+
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    margin-bottom: 32px;
+}
+.navbar h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar ul{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.navbar ul img{
+    display: none;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 47px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.13rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.banner .banner_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.banner .banner_content .content{
+
+}
+.banner .banner_content .content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.banner .banner_content .content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.banner .banner_content .content .hdspan{
+
+}
+.banner .banner_content .content .button2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
+.banner .banner_content .content .button2 .btn1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 42px;
+    padding: 16px 40px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.banner .banner_content .content .button2 .btn2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 42px;
+    padding: 16px 40px;
+}
+
+.banner .banner_img{
+    width: 349px;
+    height: 580px;
+    background-image: url(images/Images_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-right: 60px;
+    display: flex;
+    position: relative;
+}
+
+.banner .banner_img .button .img_div1{
+    width: 193px;
+    height: 98px;
+    padding: 17px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+    position: absolute;
+    top: 11%;
+    right: -90px;
+}
+ .img_div1 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.img_div1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.button .img_div2{
+    display: flex;
+    align-items: center;
+    width: 206px;
+    height: 96px;
+    padding: 17px 24px;
+    gap: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+    position: absolute;
+    top: 72%;
+    left: -100px;
+}
+.banner .banner_img .img_div2 .bol{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+.banner .banner_img .img_div2 .cont{
+
+}
+.banner .banner_img .img_div2 .cont h2{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.banner .banner_img .img_div2 .cont p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.button{
+    
+    border: none;
+}
+
+/* section 1 start*/
+
+
+.section1{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding-bottom: 100px;
+}
+.habits_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.habits_title h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.habits_title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.97rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habits_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: space-between; */
+    margin-top: 58px;
+    gap: 15px;
+    
+}
+
+
+#card{
+    width: 90%;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+#card .cover_img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+#card .cover_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+#card h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 6px;
+}
+#card p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.97rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.section2{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -2px;
+}
+
+.run{
+    width: 100%;
+    height: auto;
+    padding: 30px 30px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.run_content{
+    display: grid;
+    align-items: center;
+}
+.run_content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.run_content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    /* margin: 14px 0 35px 0; */
+}
+.run_content button{
+    border-radius: 42px;
+    padding: 16px 75px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    width: 240px;
+    height: 55px;
+}
+
+.run_img{
+    width: 100%;
+    height: auto;
+}
+.run_img img{
+    width: 100%;
+    border-radius: 18px;
+
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 34, 34);
+    /* padding-top: 50px; */
+}
+#widthg{
+    width: 60%;
+}
+.calculator_title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    background-color: #000000;
+    padding-bottom: 88px;
+}
+.calculator_title h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.calculator_title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: start;
+}
+
+.bmi {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 99%;
+    margin: 0 auto;
+    height: auto;
+    padding: 100px 5px;
+    background: rgb(34, 34, 34);
+    gap: 20px;
+}
+
+.bmi_chart{
+    display: flex;
+    justify-content: start;
+    /* padding-top: 27px; */
+    gap: 33px;
+    align-items: center;
+    flex-direction: column;
+}
+.bmi_chart h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.bmi_chart .tabble{
+    width: 310px;
+    height: 216px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.bmi_chart .tabble .font{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bmi_chart .tabble li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center_aligne{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bmi_calculater{
+    width: 580px;
+    height: auto;
+}
+.out-put{
+    width: 80%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+    /* display: none; */
+}
+#examPLE{
+    margin-top: 15px;
+    width: 95%;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(122, 181, 236); 
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.bmi_calculater h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.bmi_calculater p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.bmi_calculater .input_all{
+    display: grid;
+    grid-template-areas: 
+    
+    "input-1    input-2" 
+    "input-3    input-4"
+    "input-5    input-5"
+    ;
+    width: 100%;
+    margin: 0 auto;
+    gap: 12px;
+    margin-bottom: 34px;
+}
+.input_all .input{
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: aliceblue;
+}
+.input{
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+#input-1{
+    grid-area: input-1;
+    width: calc(100% );
+
+}
+#input-2{
+    grid-area: input-2;
+    width: calc(100%);
+}
+#input-3{
+    grid-area: input-3;
+    width: calc(100%);
+}
+#input-4{
+    grid-area: input-4;
+    width: calc(100% );
+}
+#input-5{
+    grid-area: input-5;
+    width: calc(100%);
+}
+
+.bmi_calculater .ecqual{
+    border-radius: 42px;
+    padding: 16px 75px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    width: 240px;
+    height: 55px;
+    /* text-decoration: none; */
+}
+
+#input-4 option{
+    background: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.5);
+}
+#input-5 option{
+    background: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* my think*/
+
+
+
+/* my think*/
+
+
+
+
+
+.section4{
+    width: 100%;
+    background-color: #000000;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.team_title{
+    /* padding-top: 88px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 28px;
+    width: 100%;
+    height: auto;
+}
+
+.team_title h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+.team_title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.team_img{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1);
+    background-size: cover;
+}
+
+/* .single_img{
+    width: 330px;
+    height: 272px;
+    
+} */
+.single_img{
+    width: 99%;
+}
+.single_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.mysection{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+    padding-bottom: 100px;
+}
+.main_wrap{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.h1q{
+    text-align: center;
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+    background: rgb(34, 34, 34);
+}
+
+.footer_content{
+    padding-top: 66px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 79px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer_content .content1{
+    width: 100%;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: start;
+    gap: 20px;
+}
+.footer_content .content1 h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.footer_content .content1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.footer_content .content2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.footer_single_content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 39px;
+}
+.footer_single_content ul{
+
+}
+
+.footer_single_content ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer_single_content ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_content .content3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.cope_right{
+    display: flex;
+    justify-content: center;
+    padding: 36px 0px;
+    width: 100%;
+}
+
+.cope_right h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .main_wrap{
+        width: 100%;
+    }
+    
+    .container{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .header{
+        margin-bottom: -2px;
+    }
+    .navbar{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .navbar ul li{
+        display: none;
+
+    }
+    .navbar ul img{
+        display: block;
+
+    }
+    
+    .banner{
+        width: 100%;
+        height: auto;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+        height: auto;
+        display: block;
+        overflow: hidden;
+    }
+    .banner .banner_content .content h1{
+        font-size: 2.25rem;
+    }
+
+    .banner .banner_content .content .button2 .btn1{
+        padding: 15px 20px;
+    }
+    .banner .banner_content .content .button2 .btn2{
+        padding: 15px 20px;
+    }
+
+    .banner .banner_img{
+        width: 80%;
+        margin-top: 100px;
+        height: 580px;
+    }
+    .banner .banner_img .button .img_div1{
+        top: 30%;
+        right: -50px;
+        position: absolute;
+    }
+    .button .img_div2{
+        position: absolute;
+        top: 75%;
+        left: 0px;
+    }
+    .banner .banner_content{
+        justify-content: start;
+        }
+
+        .mysection{
+            padding-top: 450px;
+        }
+    /* .section1{
+        padding-top: 450px;
+    } */
+    .habits_content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 58px;
+        gap: 40px;
+    }
+
+
+    .run{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .run_content button{
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bmi{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: auto;
+        padding: 50px 5px;
+        background: rgb(34, 34, 34);
+        gap: 20px;
+    }
+    
+    .bmi_chart{
+        justify-content: start;
+        padding-left: 10px;
+    }
+    .bmi_chart h1{
+        margin-bottom: 22px;
+    }
+    .calculator_title {
+        align-items: start;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: start;
+    }
+    .calculator_title p{
+        text-align: start;
+        padding-bottom: 20px;
+    }
+    
+    .bmi_calculater{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 5px 3px;
+        margin: 0 auto;
+    }
+    .start_align{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        gap: 5px;
+    }
+    .team_title{
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .team_title h1{
+        text-align: center;
+    }
+    .team_img{
+        width: 360px;
+        margin: 0 auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        gap: 20px;
+        box-sizing: border-box;
+        grid-template-columns: repeat(1, 1fr);
+        padding:15px 10px;
+        border-radius: 18px;
+        background: none;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .single_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 99%;
+    }
+    .footer{
+        margin-top: -2px;
+    }
+    .footer_content{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 66px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 79px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .footer_content .content1{
+        padding: 0;
+    }
+    .footer_content .content2{
+        justify-content: start;
+    }
+    .footer_content .content3{
+        justify-content: start;
+    }
+    .footer_single_content{
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+    }
+    .footer_single_content h1{
+        text-align: start;
+
+    }
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .navbar ul img{
+        display: none;
+    }
+    .navbar ul li{
+        margin-right: 20px;
+    }
+    .banner{
+        width: 100%;
+        height: auto;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: start;
+        gap: 40px;
+        margin-top: 50px;
+        height: auto;
+        display: block;
+        overflow: hidden;
+    }
+    .banner .banner_content .content h1{
+        font-size: 3.75rem;
+    }
+
+    .banner .banner_content .content .button2 .btn1{
+        padding: 15px 20px;
+    }
+    .banner .banner_content .content .button2 .btn2{
+        padding: 15px 20px;
+    }
+
+    .banner .banner_img{
+        width: 80%;
+        margin-top: 100px;
+        height: 580px;
+    }
+    .banner .banner_img .button .img_div1{
+        top: 30%;
+    right: -50px;
+    position: absolute;
+    }
+    .button .img_div2{
+        position: absolute;
+        top: 75%;
+        left: 0px;
+    }
+    .banner .banner_content{
+    justify-content: start;
+    }
+    .banner .banner_img{
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 100px;
+        height: 580px;
+    }
+    .mysection{
+        padding-top: 480px;
+    }
+    .main_wrap{
+        width: 100%;
+    }
+    .team_title h1{
+        font-size: 1.8rem;
+        
+    }
+    .habits_content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 58px;
+        gap: 40px;
+    }
+    .containeerr{
+        padding: 0 40px;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bmi{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        /* width: 80%; */
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: auto;
+        padding: 50px 0;
+        background: rgb(34, 34, 34);
+        gap: 20px;
+    }
+    .bmi_chart{
+        justify-content: start;
+        padding-left: 30px;
+    }
+    .bmi_chart h1{
+        margin-bottom: 22px;
+    }
+    .bmi_calculater{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 5px 3px;
+        margin: 0 auto;
+    }
+    .team_img{
+        width: 100%;
+    }
+    .single_img{
+        width: 99%;
+    }
+    .single_img img{
+        width: 100%;
+    }
+
+    .content1{
+        grid-area: content1;
+    }
+    .content2{
+        grid-area: content2;
+    }
+    .content3{
+        grid-area: content3;
+    }
+    .footer_content{
+        display: grid;
+        grid-template-areas: 
+        "content1   content1    content1"
+        "content2        gap       content3"
+        ;
+        gap: 30px;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
